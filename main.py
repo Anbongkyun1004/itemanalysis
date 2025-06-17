@@ -8,7 +8,15 @@ import warnings
 warnings.filterwarnings("ignore", category=UserWarning, module="openpyxl")
 
 # 파일 업로드
-st.title("📊 문항 분석 시각화 앱")
+# st.title("📊 문항 분석 시각화 앱")
+
+st.markdown("""
+<div style='display: flex; justify-content: space-between; align-items: center;'>
+  <h1 style='margin-bottom: 0;'>📊 문항 분석 시각화 앱</h1>
+  <span style='font-size: 16px; color: gray;'>created by 윤진석</span>
+</div>
+""", unsafe_allow_html=True)
+
 
 st.markdown("""
 ### 📂 사용 안내
