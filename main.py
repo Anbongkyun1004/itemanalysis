@@ -20,7 +20,7 @@ st.markdown("""
     → 교과목별학생답정오표  
     → 분석할 지필평가 선택 및 조회  
     → **저장 버튼(디스켓 모양) 클릭 → [XLS data] 형식으로 저장**
-    해당 학급 모두 반복
+- 해당 학급 모두 반복
 """)
 
 uploaded_files = st.file_uploader("엑셀 파일 업로드 (여러 개 가능)", type="xlsx", accept_multiple_files=True)
