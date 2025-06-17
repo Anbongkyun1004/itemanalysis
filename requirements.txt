@@ -2,4 +2,4 @@ streamlit
 pandas
 matplotlib
 openpyxl
-koreanize-matplotlib
+koreanize_matplotlib
