@@ -1,0 +1,6 @@
+streamlit
+koreanize_matplotlib
+pandas
+io
+matplotlib
+warnings
